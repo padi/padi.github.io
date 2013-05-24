@@ -1,2 +1,9 @@
 _site
 marcignacio*.xml
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+codekit-config.json
+node_modules
+_asset_bundler_cache
+Gemfile.lock
