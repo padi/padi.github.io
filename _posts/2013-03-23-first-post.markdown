@@ -3,6 +3,7 @@ layout: post
 title: First Post!
 tags: []
 status: publish
+date:   2013-03-23 23:59:13
 type: post
 published: true
 meta:
