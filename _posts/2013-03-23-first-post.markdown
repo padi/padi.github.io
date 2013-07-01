@@ -5,6 +5,7 @@ tags: []
 status: publish
 date:   2013-03-23 23:59:13 +0800
 type: post
+category: articles
 published: true
 ---
 Hello! If you're reading this, it's very like that I don't have to introduce myself, but I'm going to do that anyway just to get done with the formalities. I'm Marc Ignacio, just some random guy in the interwebz. This is my first blog post and I really haven't thought through how this will look like. But I wanted to start now and prevent myself from procrastinating any further. In fact, this first blog is highly driven by a <a href="https://twitter.com/pd_i/status/311871792409092096" target="_blank">bet I created for myself</a>... that's due tonight. Haha
