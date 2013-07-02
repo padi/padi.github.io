@@ -7,6 +7,7 @@ category: articles
 tags: [intro, beginner, jekyll, tutorial]
 image:
   feature: texture-feature-05.jpg
+published: false
 ---
 
 <section id="table-of-contents" class="toc">
