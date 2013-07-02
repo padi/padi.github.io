@@ -1,21 +1,20 @@
 ---
 layout: page
 permalink: /about/index.html
-title: About the Theme
-tagline: Minimal Mistakes, a Jekyll Theme
+title: About the Author
+tagline: because vanity strikes
 tags: [about, Jekyll, theme, responsive]
 image:
   feature: texture-feature-02.jpg
 ---
 
-Jekyll is pretty rad and figured releasing a cleaned up version of [my site](http://mademistakes.com) as a theme for others to hack and build on would be fun. So here be that theme --- I call it **Minimal Mistakes**, a responsive Jekyll theme with large featured images and solid typography. 
+Marc/Rendl/Padi/Jaci/(suggest a new nick here) is a graduate of Mathematics at the University of the Philippines, Diliman.
+He is currently a making *epic* web apps for [aelogica](http://aelogica.com).
 
-## Minimal Mistakes is all about:
+## Better Every Day is all about:
 
-* Responsive templates. Looking good on mobile, tablet, and desktop.
-* Gracefully degrading in older browsers. Compatible with Internet Explorer 8+ and all modern browsers. 
-* Minimal embellishments. Content first --- other widget nonsense never.
-* Large feature images for posts and pages.
-* Simple and clear permalink structure *(ie: domain.com/category/post-title)*
+* Web development, mostly related to [Ruby](http://ruby-lang.org) and [Rails](http://rubyonrails.org)
+* Tips to be better than yesterday...  what worked for me and what didn't.
+* My random musings about life in general
 
-<a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Install Minimal Mistakes Theme</a>
+<a markdown="0" href="mailto:marcrendlignacio[at]gmail.com" class="btn">Contact Me</a>
