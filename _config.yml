@@ -3,8 +3,9 @@ tagline:          by Marc Ignacio
 description:      A coder's blog for getting better # A responsive Jekyll theme large featured images and solid typography.
 
 #Comment out url when working locally to resolve base urls correctly
-#url:              http://mmistakes.github.io/minimal-mistakes
-url: http://localhost:4000
+#url:  http://mmistakes.github.io/minimal-mistakes
+url: http://padi.github.io
+
 # Owner/author information
 owner:
   name:           Marc Ignacio
