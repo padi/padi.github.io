@@ -12,7 +12,7 @@ Hello! If you're reading this, it's very likely that I don't have to introduce m
 
 As of writing, I haven't established the overall theme for this blog, but there is a reason why I wanted to create one. Some blog for a living. Some blog because they want to keep their peers updated --- the virtual diary of sorts before social networks came in. As for me, my primary motivator is self-improvement.
 
-As the current tagline of this blog says, I want to "get better everyday." To hasten that process, I will publish parts of my life that I want to improve. With that, I hope that I can change myself for the better faster through public accountability.
+As the current tagline of this blog says, I want to get "better every day." To hasten that process, I will publish parts of my life that I want to improve. With that, I hope that I can change myself for the better faster through public accountability.
 
 *We grow by default but not everyone grows up* --- If there is one sentence in this post that I want you to remember, this is it. We can consider ourselves a mess in one way or another but there's no reason to keep it that way. Don't expect that we will naturally grow as adults over time. It's an obligation to ourselves to be better.
 
