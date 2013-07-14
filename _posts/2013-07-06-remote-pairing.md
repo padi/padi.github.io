@@ -23,6 +23,19 @@ session just explaining a bit of his feature requirements, how
 [Shopify's gem doesn't support it out of the box](https://github.com/shopify/liquid/issues/29),
 and how liquid_stream solves this.
 
+Here's a glimpse of our remote pairing session:
+
+<figure>
+	<a href="http://new.tinygrab.com/e0661f148dba0fa599005d7afe6ef8440129a72624.png">
+    <img src="http://new.tinygrab.com/e0661f148dba0fa599005d7afe6ef8440129a72624.png">
+  </a>
+	<figcaption>
+    <a href="http://new.tinygrab.com/e0661f148dba0fa599005d7afe6ef8440129a72624.png" title="I pairing with Ramon (@rtayag)">
+      Me pairing with Ramon (@rtayag)
+    </a>.
+  </figcaption>
+</figure>
+
 #### The good stuff:
 * **Google+ hangouts are awesome.** With a lot teleconferencing tools we used at work (usually depends on client),
   Google+ stood out since it just felt faster than Skype and it's a lot easier to setup. If we will organize an
@@ -48,7 +61,7 @@ completes the basic feature set of the app. Awesome.
 
 *****
 
-#### Notes:
+#### Notes (for non-technical readers):
 * Pair Programming is the software development technique in which two programmers work with one computer screen.
 * Remote pair programming, simply put, is pair programming with chat.
 * PHRUG - [Philippine Ruby Users Group](http://pinoyrb.org/)
