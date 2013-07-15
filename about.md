@@ -9,7 +9,7 @@ image:
 ---
 
 Marc/Rendl/Padi/Jaci/(suggest a new nick here) is a graduate of Mathematics at the University of the Philippines, Diliman.
-He is currently a making *epic* web apps for [aelogica](http://aelogica.com).
+He is currently making/maintaining [web apps]({{ site.url }}/articles/web-apps-vs-websites/) for [aelogica](http://aelogica.com).
 
 ## Better Every Day is all about:
 
