@@ -37,6 +37,8 @@ links:
     url: /about
   - title: Articles
     url: /articles
+  - title: Dev
+    url: /dev
   # - title: Made Mistakes
   #   url: http://mademistakes.com
   #   external: true

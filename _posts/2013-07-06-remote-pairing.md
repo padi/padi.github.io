@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Remote Pair Programming - @rtayag
-tags: [remote, pair programming]
+tags: [remote, pair programming, dev]
 status: publish
 date:   2013-06-07 23:59:13 +0800
 type: post
