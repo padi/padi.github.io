@@ -4,6 +4,9 @@
 # - https://github.com/jekyll/jekyll/issues/2302
 # 2. Update to to most recent repo
 # - https://github.com/mmistakes/minimal-mistakes
+# 3. Integrate latest less (might be optional after 2)
+# - e.g. https://github.com/subash/Prepros/issues/75
+# 4. Then update/remove assets/compiling.md
 
 title:            Better Every Day
 tagline:          by Marc Ignacio
