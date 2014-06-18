@@ -3,7 +3,7 @@ layout: page
 permalink: /about/index.html
 title: About the Author
 tagline: because vanity strikes
-tags: [about, Jekyll, theme, responsive]
+tags: [about]
 image:
   feature: texture-feature-02.jpg
 ---
