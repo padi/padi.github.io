@@ -1,3 +1,10 @@
+#TODO:
+# 1. move most of these custom values to _data. For more info, see:
+# - http://jekyllrb.com/docs/datafiles/
+# - https://github.com/jekyll/jekyll/issues/2302
+# 2. Update to to most recent repo
+# - https://github.com/mmistakes/minimal-mistakes
+
 title:            Better Every Day
 tagline:          by Marc Ignacio
 description:      A coder's blog for getting better # A responsive Jekyll theme large featured images and solid typography.
