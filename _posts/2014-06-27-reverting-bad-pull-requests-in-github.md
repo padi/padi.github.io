@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Reverting Bad Pull Requests in GitHub
-tags: [remote, dev]
+tags: [dev, github]
 status: publish
 date:   2014-06-27 23:33:13 +0800
 type: post
