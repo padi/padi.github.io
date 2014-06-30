@@ -15,6 +15,7 @@ published: true
   to organize your front-end javascript code
 
 ## Ember Object
+- every other object in Ember "inherits" from Ember.Object
 
 ## Routing in Ember
 
