@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How NOT to Validate Classes in Ruby Websites
+title: How NOT to Validate Classes in Ruby Web Apps
 tags: [dev, security, ruby]
 status: publish
 date:   2014-07-01 23:33:13 +0800
