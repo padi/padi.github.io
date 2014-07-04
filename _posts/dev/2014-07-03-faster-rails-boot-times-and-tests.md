@@ -3,7 +3,7 @@ layout: post
 title: Faster Rails Boot Times (and Tests)
 tags: [dev, security, ruby]
 status: publish
-date:   2014-07-01 23:33:13 +0800
+date:   2014-07-04 23:33:13 +0800
 type: post
 category: articles
 published: true
