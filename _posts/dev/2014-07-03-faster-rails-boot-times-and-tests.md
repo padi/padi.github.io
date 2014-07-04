@@ -66,14 +66,14 @@ Aside from Zeus, you can also try out [Spring](https://github.com/jonleighton/sp
 Before `railsexpress` patch:
 {% highlight sh %}
 > rvm use 1.9.3-p392; bundle install;
-> time bundle exec rails runner "puts :OK" # before patching
+> time bundle exec rails runner "puts :OK"
 bundle exec rails runner "puts :OK"  57.32s user 4.18s system 78% cpu 1:18.82 total
 {% endhighlight %}
 
 After `railsexpress` patch:
 {% highlight sh %}
 > rvm use 1.9.3-p392-railsexpress; bundle install;
-> time bundle exec rails runner "puts :OK" # after patching
+> time bundle exec rails runner "puts :OK"
 bundle exec rails runner "puts :OK"  15.63s user 5.20s system 84% cpu 24.650 total
 {% endhighlight %}
 
