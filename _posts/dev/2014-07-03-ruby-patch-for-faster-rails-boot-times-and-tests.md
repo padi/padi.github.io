@@ -29,5 +29,31 @@ Here are the top 2 tips that will decrease your waiting time by more than 50% bu
 
 ## Install railsexpress ruby patch
 
+- get the latest rvm
+
+{% highlight sh %}
+> rvm get head # or
+> rvm get stable
+{% endhighlight %}
+
+- install railsexpress patch to your current ruby
+
+{% highlight sh %}
+> rvm reinstall 1.9.3-p484 --patch railsexpress # to overwrite or...
+> rvm install 1.9.3-p484-railsexpress --patch railsexpress # if you want to benchmark against the non-patched version
+{% endhighlight %}
+
+- Benchmark to see how far you've improved the boot time by just applying this patch. For example, here's my data:
+
+{% highlight sh %}
+> rvm use 1.9.3-p392; bundle install;
+> time bundle exec rails runner "puts :OK" # before patching
+bundle exec rails runner "puts :OK"  57.32s user 4.18s system 78% cpu 1:18.82 total
+> rvm use 1.9.3-p392-railsexpress; bundle install;
+> time bundle exec rails runner "puts :OK" # after patching
+{% endhighlight %}
+
+For more information, check out the [rvm patchsets repository](https://github.com/skaes/rvm-patchsets)
+
 ## Install a rails preloader gem e.g. zeus
 
