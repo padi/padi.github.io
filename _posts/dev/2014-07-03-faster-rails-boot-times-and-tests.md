@@ -6,7 +6,7 @@ status: publish
 date:   2014-07-01 23:33:13 +0800
 type: post
 category: articles
-published: false
+published: true
 ---
 
 I've been in a number of rails projects, but the one I'm
@@ -27,6 +27,24 @@ but that should be your last step. Consider first the tasks that will
 
 Here are the top 2 tips that will decrease your waiting time by more than 50% but will only take up to 15 minutes:
 
+## Install a rails preloader gem e.g. Zeus
+
+While this tip doesn't really optimize your rails boot time per se,
+it saves you from waiting to load your test/development environment
+by loading it before you need it. This is why [Zeus](https://github.com/burke/zeus) can claim:
+
+> Zeus preloads your Rails app so that your normal development tasks such as console, server, generate, and specs/tests take less than one second.
+
+You can quickly try this out with the following:
+{% highlight sh %}
+> gem install zeus
+> zeus start
+# in another terminal
+> zeus server # run rails server
+{% endhighlight %}
+
+Aside from Zeus, you can also try out [Spring](https://github.com/jonleighton/spring)
+
 ## Install railsexpress ruby patch
 
 - get the latest rvm
@@ -43,17 +61,23 @@ Here are the top 2 tips that will decrease your waiting time by more than 50% bu
 > rvm install 1.9.3-p484-railsexpress --patch railsexpress # if you want to benchmark against the non-patched version
 {% endhighlight %}
 
-- Benchmark to see how far you've improved the boot time by just applying this patch. For example, here's my data:
+- Benchmark to see how far you've improved the boot time by just applying this patch. Here's the result on my machine:
 
+Before `railsexpress` patch:
 {% highlight sh %}
 > rvm use 1.9.3-p392; bundle install;
 > time bundle exec rails runner "puts :OK" # before patching
 bundle exec rails runner "puts :OK"  57.32s user 4.18s system 78% cpu 1:18.82 total
-> rvm use 1.9.3-p392-railsexpress; bundle install;
-> time bundle exec rails runner "puts :OK" # after patching
 {% endhighlight %}
 
-For more information, check out the [rvm patchsets repository](https://github.com/skaes/rvm-patchsets)
+After `railsexpress` patch:
+{% highlight sh %}
+> rvm use 1.9.3-p392-railsexpress; bundle install;
+> time bundle exec rails runner "puts :OK" # after patching
+bundle exec rails runner "puts :OK"  15.63s user 5.20s system 84% cpu 24.650 total
+{% endhighlight %}
 
-## Install a rails preloader gem e.g. zeus
+More than 50% of the original boot time is shaved off by just applying the patch! I know 1 minute is pretty slow,
+but to bring it down into less than 30 seconds with a simple task is a big win!
 
+For more information, check out the [rvm patchsets repository](https://github.com/skaes/rvm-patchsets).
