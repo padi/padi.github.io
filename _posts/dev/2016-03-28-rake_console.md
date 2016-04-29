@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Create your own `rake console`
-tags: [dev, ruby, quicktips]
+tags: [dev, ruby, quicktips, til]
 status: publish
 date:   2016-03-28 5:33:13 +0800
 type: post
