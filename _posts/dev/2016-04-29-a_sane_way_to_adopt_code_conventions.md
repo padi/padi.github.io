@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A Sane way of Slowly Adopting Code Conventions
-tags: [dev, shell, quicktips, til]
+tags: [dev, shell, quicktips, til, ruby]
 status: publish
 date:   2016-04-29 5:10:10 +0800
 type: post
@@ -25,10 +25,9 @@ I usually follow [bbatsov's Ruby Style Guide](http://github.com/bbatsov/ruby-sty
 following any sort of git feature branching model, you can automatically enforce
 (most of) the style guide changes by checking out to the feature branch and use this script:
 
-    git diff origin/master --name-status | awk '{print $2}' | xargs rubocop --auto-correct
+    git diff master --name-status | awk '{print $2}' | grep ".rb" | xargs rubocop --auto-correct
 
-
-That roughly transates to: get all changed files in the current feature branch and run each file through rubocop, autocorrecting (modifying) the files if possible.
+That roughly transates to: get all changed ruby files (`.rb`) in the current feature branch and run each file through rubocop, autocorrecting (modifying) the files if possible.
 
 I recommend saving the changes in a separate commit for easier code reviews.
 
