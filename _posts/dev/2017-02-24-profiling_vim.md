@@ -29,8 +29,8 @@ It's really easy, just pop your vim open and type this in normal mode:
     :profile func *
     :profile file *
 
-    # do the slow task next, for example:
-    :w sample_ruby_file.rb
+    # do whatever's slow action that you want to record, for example:
+    :open sample_ruby_file.rb
 
     :profile pause
 
