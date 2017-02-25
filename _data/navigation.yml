@@ -4,3 +4,5 @@ main:
     url: /
   - title: About
     url: /about
+  - title: Talks
+    url: http://pinoyrb.org/users/marc-rendl-ignacio
