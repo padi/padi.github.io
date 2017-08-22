@@ -10,7 +10,7 @@ published: true
 ---
 
 TL;DR: Change `Capybara.app_host` in a setup and teardown mechanism in your favorite testing framework.
-You can also temporarily change the host in a block, i.e.
+You can also create a method that temporarily changes the host around a `yield`-ed block, i.e.
 
 {% highlight ruby %}
 # test/application_system_test_case.rb
