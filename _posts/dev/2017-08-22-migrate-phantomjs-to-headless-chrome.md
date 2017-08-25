@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Migrating PhantomJS to Headless ChromeDriver
+title: Migrating Your Capybara Driver from PhantomJS to Headless ChromeDriver
 tags: [dev]
 status: publish
 date:   2017-08-22 9:25:10 +0800
