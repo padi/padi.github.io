@@ -37,3 +37,5 @@ renice +15 -p `ps ax | grep 'rb-fsevent' | grep -v grep | awk '{print $1}' | tr 
 
 Add it somewhere in your `$PATH` folders, `chmod +x renice-rails`, run `renice-rails`
 and you're off to a good start of your day!
+
+Reference: [OS X: throttle application CPU utilization](https://tinyapps.org/blog/mac/201107230700_throttle_process_os_x.html)
