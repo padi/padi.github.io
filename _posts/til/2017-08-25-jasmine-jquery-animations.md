@@ -3,7 +3,7 @@ layout: single
 title: Testing jQuery animations in Jasmine
 tags: [til]
 status: publish
-date:   2017-08-25 2:42:00 +0800
+date:   2017-08-25 14:42:00 +0800
 type: post
 category: articles
 published: true
