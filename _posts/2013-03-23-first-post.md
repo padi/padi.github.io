@@ -8,7 +8,7 @@ type: post
 category: articles
 published: true
 ---
-Hello! If you're reading this, it's very likely that I don't have to introduce myself, but I'm going to do that anyway just to get done with the formalities. I'm Marc Ignacio, just some random guy in the interwebz. This is my first blog post and I really haven't thought through how this will look like. But I wanted to start now and prevent myself from procrastinating any further. In fact, this first blog is highly driven by a <a href="https://twitter.com/pd_i/status/311871792409092096" target="_blank">bet I created for myself</a>... that's due tonight. Haha
+Hello! If you're reading this, it's very likely that I don't have to introduce myself, but I'm going to do that anyway just to get done with the formalities. I'm Marc Ignacio, just some random guy in the interwebs. This is my first blog post and I really haven't thought through how this will look like. But I wanted to start now and prevent myself from procrastinating any further. In fact, this first blog is highly driven by a bet I created for myself... that's due tonight. Haha
 
 As of writing, I haven't established the overall theme for this blog, but there is a reason why I wanted to create one. Some blog for a living. Some blog because they want to keep their peers updated --- the virtual diary of sorts before social networks came in. As for me, my primary motivator is self-improvement.
 
