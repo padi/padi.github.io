@@ -60,7 +60,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : pd_i
+  username               : marcrendl
 facebook:
   username               :
   app_id                 :
@@ -84,8 +84,8 @@ analytics:
 author:
   name             : "Marc Ignacio"
   avatar           : "bio-photo.jpg"
-  bio              : "Rubyist | Software Engineer"
-  location         : "BGC | MNL"
+  bio              : "Rubyist | Software Engineer | Digital Marketer"
+  location         : "BGC | MNL | BUL"
   email            : "marcrendlignacio+blog@gmail.com"
   uri              :
   bitbucket        :
@@ -105,7 +105,7 @@ author:
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
   steam            :
   tumblr           :
-  twitter          : pd_i
+  twitter          : marcrendl
   vine             :
   weibo            :
   xing             :
