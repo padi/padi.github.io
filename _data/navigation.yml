@@ -4,5 +4,11 @@ main:
     url: /
   - title: About
     url: /about
+  - title: My Services
+    url: https://padi.github.io/portfolio/
   - title: Recorded Talks
     url: https://www.youtube.com/playlist?list=PLUWxUW-YCdzw4plP128fg6kUK8obHMD4b
+  - title: Typing Speed
+    url: https://monkeytype.com/profile/m14o
+  - title: CSSBattle.dev
+    url: https://cssbattle.dev/player/mri
