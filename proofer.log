@@ -1,0 +1,1062 @@
+Running 3 checks (Images, Links, Scripts) in ["./_site"] on *.html files ...
+
+
+Checking 49 internal links
+Checking internal link hashes in 26 files
+Ran on 26 files!
+
+
+For the Images check, the following failures were found:
+
+* At ./_site/articles/remote_pairing/index.html:386:
+
+  image http://new.tinygrab.com/e0661f148dba0fa599005d7afe6ef8440129a72624.png does not have an alt attribute
+
+* At ./_site/articles/remote_pairing/index.html:386:
+
+  image http://new.tinygrab.com/e0661f148dba0fa599005d7afe6ef8440129a72624.png uses the http scheme
+
+* At ./_site/articles/reverting_bad_pull_requests_in_github/index.html:379:
+
+  image http://s22.postimg.org/pae4ehdn5/revert_button.png  does not have an alt attribute
+
+* At ./_site/articles/reverting_bad_pull_requests_in_github/index.html:379:
+
+  image http://s22.postimg.org/pae4ehdn5/revert_button.png  uses the http scheme
+
+For the Links check, the following failures were found:
+
+* At ./_site/404.html:66:
+
+  http://localhost:4000/404.html is not an HTTPS link
+
+* At ./_site/404.html:198:
+
+  http://localhost:4000/ is not an HTTPS link
+
+* At ./_site/404.html:206:
+
+  http://localhost:4000/ is not an HTTPS link
+
+* At ./_site/404.html:244:
+
+  mailto:marcrendlignacio+blog[at]gmail.com contains an invalid email address
+
+* At ./_site/404.html:334:
+
+  http://localhost:4000/404.html is not an HTTPS link
+
+* At ./_site/404.html:417:
+
+  http://localhost:4000 is not an HTTPS link
+
+* At ./_site/about.html:66:
+
+  http://localhost:4000/about is not an HTTPS link
+
+* At ./_site/about.html:198:
+
+  http://localhost:4000/ is not an HTTPS link
+
+* At ./_site/about.html:206:
+
+  http://localhost:4000/ is not an HTTPS link
+
+* At ./_site/about.html:244:
+
+  mailto:marcrendlignacio+blog[at]gmail.com contains an invalid email address
+
+* At ./_site/about.html:334:
+
+  http://localhost:4000/about is not an HTTPS link
+
+* At ./_site/about.html:349:
+
+  http://localhost:4000/articles/web-apps-vs-websites/ is not an HTTPS link
+
+* At ./_site/about.html:349:
+
+  http://aelogica.com is not an HTTPS link
+
+* At ./_site/about.html:365:
+
+  http://ruby-lang.org is not an HTTPS link
+
+* At ./_site/about.html:365:
+
+  http://rubyonrails.org is not an HTTPS link
+
+* At ./_site/about.html:369:
+
+  mailto:marcrendlignacio[at]gmail.com contains an invalid email address
+
+* At ./_site/about.html:370:
+
+  mailto:marcrendlignacio[at]gmail.com contains an invalid email address
+
+* At ./_site/about.html:449:
+
+  http://localhost:4000 is not an HTTPS link
+
+* At ./_site/articles/a_sane_way_to_adopt_code_conventions/index.html:70:
+
+  http://localhost:4000/articles/a_sane_way_to_adopt_code_conventions/ is not an HTTPS link
+
+* At ./_site/articles/a_sane_way_to_adopt_code_conventions/index.html:202:
+
+  http://localhost:4000/ is not an HTTPS link
+
+* At ./_site/articles/a_sane_way_to_adopt_code_conventions/index.html:210:
+
+  http://localhost:4000/ is not an HTTPS link
+
+* At ./_site/articles/a_sane_way_to_adopt_code_conventions/index.html:248:
+
+  mailto:marcrendlignacio+blog[at]gmail.com contains an invalid email address
+
+* At ./_site/articles/a_sane_way_to_adopt_code_conventions/index.html:338:
+
+  http://localhost:4000/articles/a_sane_way_to_adopt_code_conventions/ is not an HTTPS link
+
+* At ./_site/articles/a_sane_way_to_adopt_code_conventions/index.html:377:
+
+  http://programmer.97things.oreilly.com/wiki/index.php/The_Boy_Scout_Rule is not an HTTPS link
+
+* At ./_site/articles/a_sane_way_to_adopt_code_conventions/index.html:379:
+
+  http://github.com/bbatsov/ruby-style-guide is not an HTTPS link
+
+* At ./_site/articles/a_sane_way_to_adopt_code_conventions/index.html:380:
+
+  http://github.com/bbatsov/rubocop is not an HTTPS link
+
+* At ./_site/articles/a_sane_way_to_adopt_code_conventions/index.html:391:
+
+  http://github.com/bbatsov/rubocop is not an HTTPS link
+
+* At ./_site/articles/a_sane_way_to_adopt_code_conventions/index.html:697:
+
+  http://localhost:4000 is not an HTTPS link
+
+* At ./_site/articles/default-terminal-editor/index.html:70:
+
+  http://localhost:4000/articles/default-terminal-editor/ is not an HTTPS link
+
+* At ./_site/articles/default-terminal-editor/index.html:202:
+
+  http://localhost:4000/ is not an HTTPS link
+
+* At ./_site/articles/default-terminal-editor/index.html:210:
+
+  http://localhost:4000/ is not an HTTPS link
+
+* At ./_site/articles/default-terminal-editor/index.html:248:
+
+  mailto:marcrendlignacio+blog[at]gmail.com contains an invalid email address
+
+* At ./_site/articles/default-terminal-editor/index.html:338:
+
+  http://localhost:4000/articles/default-terminal-editor/ is not an HTTPS link
+
+* At ./_site/articles/default-terminal-editor/index.html:376:
+
+  http://guides.rubygems.org/command-reference/#gem-open is not an HTTPS link
+
+* At ./_site/articles/default-terminal-editor/index.html:377:
+
+  http://bundler.io/v1.15/man/bundle-open.1.html is not an HTTPS link
+
+* At ./_site/articles/default-terminal-editor/index.html:681:
+
+  http://localhost:4000 is not an HTTPS link
+
+* At ./_site/articles/faster_rails_boot_times_and_tests/index.html:70:
+
+  http://localhost:4000/articles/faster_rails_boot_times_and_tests/ is not an HTTPS link
+
+* At ./_site/articles/faster_rails_boot_times_and_tests/index.html:202:
+
+  http://localhost:4000/ is not an HTTPS link
+
+* At ./_site/articles/faster_rails_boot_times_and_tests/index.html:210:
+
+  http://localhost:4000/ is not an HTTPS link
+
+* At ./_site/articles/faster_rails_boot_times_and_tests/index.html:248:
+
+  mailto:marcrendlignacio+blog[at]gmail.com contains an invalid email address
+
+* At ./_site/articles/faster_rails_boot_times_and_tests/index.html:338:
+
+  http://localhost:4000/articles/faster_rails_boot_times_and_tests/ is not an HTTPS link
+
+* At ./_site/articles/faster_rails_boot_times_and_tests/index.html:379:
+
+  http://www.fngtps.com/2013/fast-test-suite-boot-times-with-ruby-on-rails/ is not an HTTPS link
+
+* At ./_site/articles/faster_rails_boot_times_and_tests/index.html:382:
+
+  http://en.wikipedia.org/wiki/Pareto_principle is not an HTTPS link
+
+* At ./_site/articles/faster_rails_boot_times_and_tests/index.html:741:
+
+  http://localhost:4000 is not an HTTPS link
+
+* At ./_site/articles/first-post/index.html:70:
+
+  http://localhost:4000/articles/first-post/ is not an HTTPS link
+
+* At ./_site/articles/first-post/index.html:202:
+
+  http://localhost:4000/ is not an HTTPS link
+
+* At ./_site/articles/first-post/index.html:210:
+
+  http://localhost:4000/ is not an HTTPS link
+
+* At ./_site/articles/first-post/index.html:248:
+
+  mailto:marcrendlignacio+blog[at]gmail.com contains an invalid email address
+
+* At ./_site/articles/first-post/index.html:338:
+
+  http://localhost:4000/articles/first-post/ is not an HTTPS link
+
+* At ./_site/articles/first-post/index.html:658:
+
+  http://localhost:4000 is not an HTTPS link
+
+* At ./_site/articles/fix_slow_terminal_loading_time/index.html:70:
+
+  http://localhost:4000/articles/fix_slow_terminal_loading_time/ is not an HTTPS link
+
+* At ./_site/articles/fix_slow_terminal_loading_time/index.html:202:
+
+  http://localhost:4000/ is not an HTTPS link
+
+* At ./_site/articles/fix_slow_terminal_loading_time/index.html:210:
+
+  http://localhost:4000/ is not an HTTPS link
+
+* At ./_site/articles/fix_slow_terminal_loading_time/index.html:248:
+
+  mailto:marcrendlignacio+blog[at]gmail.com contains an invalid email address
+
+* At ./_site/articles/fix_slow_terminal_loading_time/index.html:338:
+
+  http://localhost:4000/articles/fix_slow_terminal_loading_time/ is not an HTTPS link
+
+* At ./_site/articles/fix_slow_terminal_loading_time/index.html:378:
+
+  http://osxdaily.com/2010/05/06/speed-up-a-slow-terminal-by-clearing-log-files/ is not an HTTPS link
+
+* At ./_site/articles/fix_slow_terminal_loading_time/index.html:699:
+
+  http://localhost:4000 is not an HTTPS link
+
+* At ./_site/articles/how_not_to_validate_classes_in_ruby_web_apps/index.html:70:
+
+  http://localhost:4000/articles/how_not_to_validate_classes_in_ruby_web_apps/ is not an HTTPS link
+
+* At ./_site/articles/how_not_to_validate_classes_in_ruby_web_apps/index.html:202:
+
+  http://localhost:4000/ is not an HTTPS link
+
+* At ./_site/articles/how_not_to_validate_classes_in_ruby_web_apps/index.html:210:
+
+  http://localhost:4000/ is not an HTTPS link
+
+* At ./_site/articles/how_not_to_validate_classes_in_ruby_web_apps/index.html:248:
+
+  mailto:marcrendlignacio+blog[at]gmail.com contains an invalid email address
+
+* At ./_site/articles/how_not_to_validate_classes_in_ruby_web_apps/index.html:338:
+
+  http://localhost:4000/articles/how_not_to_validate_classes_in_ruby_web_apps/ is not an HTTPS link
+
+* At ./_site/articles/how_not_to_validate_classes_in_ruby_web_apps/index.html:377:
+
+  http://www.regular-expressions.info/email.html is not an HTTPS link
+
+* At ./_site/articles/how_not_to_validate_classes_in_ruby_web_apps/index.html:415:
+
+  http://guides.rubyonrails.org/security.html#regular-expressions is not an HTTPS link
+
+* At ./_site/articles/how_not_to_validate_classes_in_ruby_web_apps/index.html:423:
+
+  http://www.railstutorial.org/book/modeling_users#sec-format_validation is not an HTTPS link
+
+* At ./_site/articles/how_not_to_validate_classes_in_ruby_web_apps/index.html:726:
+
+  http://localhost:4000 is not an HTTPS link
+
+* At ./_site/articles/how_to_say_no/index.html:70:
+
+  http://localhost:4000/articles/how_to_say_no/ is not an HTTPS link
+
+* At ./_site/articles/how_to_say_no/index.html:202:
+
+  http://localhost:4000/ is not an HTTPS link
+
+* At ./_site/articles/how_to_say_no/index.html:210:
+
+  http://localhost:4000/ is not an HTTPS link
+
+* At ./_site/articles/how_to_say_no/index.html:248:
+
+  mailto:marcrendlignacio+blog[at]gmail.com contains an invalid email address
+
+* At ./_site/articles/how_to_say_no/index.html:338:
+
+  http://localhost:4000/articles/how_to_say_no/ is not an HTTPS link
+
+* At ./_site/articles/how_to_say_no/index.html:696:
+
+  http://localhost:4000 is not an HTTPS link
+
+* At ./_site/articles/jasmine-jquery-animations/index.html:70:
+
+  http://localhost:4000/articles/jasmine-jquery-animations/ is not an HTTPS link
+
+* At ./_site/articles/jasmine-jquery-animations/index.html:202:
+
+  http://localhost:4000/ is not an HTTPS link
+
+* At ./_site/articles/jasmine-jquery-animations/index.html:210:
+
+  http://localhost:4000/ is not an HTTPS link
+
+* At ./_site/articles/jasmine-jquery-animations/index.html:248:
+
+  mailto:marcrendlignacio+blog[at]gmail.com contains an invalid email address
+
+* At ./_site/articles/jasmine-jquery-animations/index.html:338:
+
+  http://localhost:4000/articles/jasmine-jquery-animations/ is not an HTTPS link
+
+* At ./_site/articles/jasmine-jquery-animations/index.html:686:
+
+  http://localhost:4000 is not an HTTPS link
+
+* At ./_site/articles/kill-spring/index.html:70:
+
+  http://localhost:4000/articles/kill-spring/ is not an HTTPS link
+
+* At ./_site/articles/kill-spring/index.html:202:
+
+  http://localhost:4000/ is not an HTTPS link
+
+* At ./_site/articles/kill-spring/index.html:210:
+
+  http://localhost:4000/ is not an HTTPS link
+
+* At ./_site/articles/kill-spring/index.html:248:
+
+  mailto:marcrendlignacio+blog[at]gmail.com contains an invalid email address
+
+* At ./_site/articles/kill-spring/index.html:338:
+
+  http://localhost:4000/articles/kill-spring/ is not an HTTPS link
+
+* At ./_site/articles/kill-spring/index.html:693:
+
+  http://localhost:4000 is not an HTTPS link
+
+* At ./_site/articles/migrate-phantomjs-to-headless-chrome/index.html:70:
+
+  http://localhost:4000/articles/migrate-phantomjs-to-headless-chrome/ is not an HTTPS link
+
+* At ./_site/articles/migrate-phantomjs-to-headless-chrome/index.html:202:
+
+  http://localhost:4000/ is not an HTTPS link
+
+* At ./_site/articles/migrate-phantomjs-to-headless-chrome/index.html:210:
+
+  http://localhost:4000/ is not an HTTPS link
+
+* At ./_site/articles/migrate-phantomjs-to-headless-chrome/index.html:248:
+
+  mailto:marcrendlignacio+blog[at]gmail.com contains an invalid email address
+
+* At ./_site/articles/migrate-phantomjs-to-headless-chrome/index.html:338:
+
+  http://localhost:4000/articles/migrate-phantomjs-to-headless-chrome/ is not an HTTPS link
+
+* At ./_site/articles/migrate-phantomjs-to-headless-chrome/index.html:699:
+
+  http://localhost:4000 is not an HTTPS link
+
+* At ./_site/articles/pomo_sh/index.html:70:
+
+  http://localhost:4000/articles/pomo_sh/ is not an HTTPS link
+
+* At ./_site/articles/pomo_sh/index.html:202:
+
+  http://localhost:4000/ is not an HTTPS link
+
+* At ./_site/articles/pomo_sh/index.html:210:
+
+  http://localhost:4000/ is not an HTTPS link
+
+* At ./_site/articles/pomo_sh/index.html:248:
+
+  mailto:marcrendlignacio+blog[at]gmail.com contains an invalid email address
+
+* At ./_site/articles/pomo_sh/index.html:338:
+
+  http://localhost:4000/articles/pomo_sh/ is not an HTTPS link
+
+* At ./_site/articles/pomo_sh/index.html:702:
+
+  http://localhost:4000 is not an HTTPS link
+
+* At ./_site/articles/profiling_vim/index.html:70:
+
+  http://localhost:4000/articles/profiling_vim/ is not an HTTPS link
+
+* At ./_site/articles/profiling_vim/index.html:202:
+
+  http://localhost:4000/ is not an HTTPS link
+
+* At ./_site/articles/profiling_vim/index.html:210:
+
+  http://localhost:4000/ is not an HTTPS link
+
+* At ./_site/articles/profiling_vim/index.html:248:
+
+  mailto:marcrendlignacio+blog[at]gmail.com contains an invalid email address
+
+* At ./_site/articles/profiling_vim/index.html:338:
+
+  http://localhost:4000/articles/profiling_vim/ is not an HTTPS link
+
+* At ./_site/articles/profiling_vim/index.html:726:
+
+  http://localhost:4000 is not an HTTPS link
+
+* At ./_site/articles/rake_console/index.html:70:
+
+  http://localhost:4000/articles/rake_console/ is not an HTTPS link
+
+* At ./_site/articles/rake_console/index.html:202:
+
+  http://localhost:4000/ is not an HTTPS link
+
+* At ./_site/articles/rake_console/index.html:210:
+
+  http://localhost:4000/ is not an HTTPS link
+
+* At ./_site/articles/rake_console/index.html:248:
+
+  mailto:marcrendlignacio+blog[at]gmail.com contains an invalid email address
+
+* At ./_site/articles/rake_console/index.html:338:
+
+  http://localhost:4000/articles/rake_console/ is not an HTTPS link
+
+* At ./_site/articles/rake_console/index.html:697:
+
+  http://localhost:4000 is not an HTTPS link
+
+* At ./_site/articles/remote_pairing/index.html:70:
+
+  http://localhost:4000/articles/remote_pairing/ is not an HTTPS link
+
+* At ./_site/articles/remote_pairing/index.html:202:
+
+  http://localhost:4000/ is not an HTTPS link
+
+* At ./_site/articles/remote_pairing/index.html:210:
+
+  http://localhost:4000/ is not an HTTPS link
+
+* At ./_site/articles/remote_pairing/index.html:248:
+
+  mailto:marcrendlignacio+blog[at]gmail.com contains an invalid email address
+
+* At ./_site/articles/remote_pairing/index.html:338:
+
+  http://localhost:4000/articles/remote_pairing/ is not an HTTPS link
+
+* At ./_site/articles/remote_pairing/index.html:369:
+
+  http://twitter.com/rtayag is not an HTTPS link
+
+* At ./_site/articles/remote_pairing/index.html:373:
+
+  http://get.stiltify.com/pages/home is not an HTTPS link
+
+* At ./_site/articles/remote_pairing/index.html:385:
+
+  http://new.tinygrab.com/e0661f148dba0fa599005d7afe6ef8440129a72624.png is not an HTTPS link
+
+* At ./_site/articles/remote_pairing/index.html:389:
+
+  http://new.tinygrab.com/e0661f148dba0fa599005d7afe6ef8440129a72624.png is not an HTTPS link
+
+* At ./_site/articles/remote_pairing/index.html:400:
+
+  http://tmate.io/ is not an HTTPS link
+
+* At ./_site/articles/remote_pairing/index.html:401:
+
+  http://tmux.sourceforge.net/ is not an HTTPS link
+
+* At ./_site/articles/remote_pairing/index.html:413:
+
+  http://en.wikipedia.org/wiki/Murphy's_law is not an HTTPS link
+
+* At ./_site/articles/remote_pairing/index.html:431:
+
+  http://pinoyrb.org/ is not an HTTPS link
+
+* At ./_site/articles/remote_pairing/index.html:733:
+
+  http://localhost:4000 is not an HTTPS link
+
+* At ./_site/articles/reverting_bad_pull_requests_in_github/index.html:70:
+
+  http://localhost:4000/articles/reverting_bad_pull_requests_in_github/ is not an HTTPS link
+
+* At ./_site/articles/reverting_bad_pull_requests_in_github/index.html:202:
+
+  http://localhost:4000/ is not an HTTPS link
+
+* At ./_site/articles/reverting_bad_pull_requests_in_github/index.html:210:
+
+  http://localhost:4000/ is not an HTTPS link
+
+* At ./_site/articles/reverting_bad_pull_requests_in_github/index.html:248:
+
+  mailto:marcrendlignacio+blog[at]gmail.com contains an invalid email address
+
+* At ./_site/articles/reverting_bad_pull_requests_in_github/index.html:338:
+
+  http://localhost:4000/articles/reverting_bad_pull_requests_in_github/ is not an HTTPS link
+
+* At ./_site/articles/reverting_bad_pull_requests_in_github/index.html:371:
+
+  http://git-scm.com/blog/2010/03/02/undoing-merges.html is not an HTTPS link
+
+* At ./_site/articles/reverting_bad_pull_requests_in_github/index.html:378:
+
+  http://s22.postimg.org/pae4ehdn5/revert_button.png  is not an HTTPS link
+
+* At ./_site/articles/reverting_bad_pull_requests_in_github/index.html:382:
+
+  http://s22.postimg.org/pae4ehdn5/revert_button.png  is not an HTTPS link
+
+* At ./_site/articles/reverting_bad_pull_requests_in_github/index.html:693:
+
+  http://localhost:4000 is not an HTTPS link
+
+* At ./_site/articles/testing-subdomains-in-capybara/index.html:70:
+
+  http://localhost:4000/articles/testing-subdomains-in-capybara/ is not an HTTPS link
+
+* At ./_site/articles/testing-subdomains-in-capybara/index.html:202:
+
+  http://localhost:4000/ is not an HTTPS link
+
+* At ./_site/articles/testing-subdomains-in-capybara/index.html:210:
+
+  http://localhost:4000/ is not an HTTPS link
+
+* At ./_site/articles/testing-subdomains-in-capybara/index.html:248:
+
+  mailto:marcrendlignacio+blog[at]gmail.com contains an invalid email address
+
+* At ./_site/articles/testing-subdomains-in-capybara/index.html:338:
+
+  http://localhost:4000/articles/testing-subdomains-in-capybara/ is not an HTTPS link
+
+* At ./_site/articles/testing-subdomains-in-capybara/index.html:692:
+
+  http://localhost:4000 is not an HTTPS link
+
+* At ./_site/articles/throttle-down-rails-processes/index.html:70:
+
+  http://localhost:4000/articles/throttle-down-rails-processes/ is not an HTTPS link
+
+* At ./_site/articles/throttle-down-rails-processes/index.html:202:
+
+  http://localhost:4000/ is not an HTTPS link
+
+* At ./_site/articles/throttle-down-rails-processes/index.html:210:
+
+  http://localhost:4000/ is not an HTTPS link
+
+* At ./_site/articles/throttle-down-rails-processes/index.html:248:
+
+  mailto:marcrendlignacio+blog[at]gmail.com contains an invalid email address
+
+* At ./_site/articles/throttle-down-rails-processes/index.html:338:
+
+  http://localhost:4000/articles/throttle-down-rails-processes/ is not an HTTPS link
+
+* At ./_site/articles/throttle-down-rails-processes/index.html:368:
+
+  http://man7.org/linux/man-pages/man1/renice.1.html is not an HTTPS link
+
+* At ./_site/articles/throttle-down-rails-processes/index.html:690:
+
+  http://localhost:4000 is not an HTTPS link
+
+* At ./_site/articles/use-html-css-js-vim-plugins-for-vue/index.html:70:
+
+  http://localhost:4000/articles/use-html-css-js-vim-plugins-for-vue/ is not an HTTPS link
+
+* At ./_site/articles/use-html-css-js-vim-plugins-for-vue/index.html:202:
+
+  http://localhost:4000/ is not an HTTPS link
+
+* At ./_site/articles/use-html-css-js-vim-plugins-for-vue/index.html:210:
+
+  http://localhost:4000/ is not an HTTPS link
+
+* At ./_site/articles/use-html-css-js-vim-plugins-for-vue/index.html:248:
+
+  mailto:marcrendlignacio+blog[at]gmail.com contains an invalid email address
+
+* At ./_site/articles/use-html-css-js-vim-plugins-for-vue/index.html:338:
+
+  http://localhost:4000/articles/use-html-css-js-vim-plugins-for-vue/ is not an HTTPS link
+
+* At ./_site/articles/use-html-css-js-vim-plugins-for-vue/index.html:684:
+
+  http://localhost:4000 is not an HTTPS link
+
+* At ./_site/articles/web-apps-vs-websites/index.html:70:
+
+  http://localhost:4000/articles/web-apps-vs-websites/ is not an HTTPS link
+
+* At ./_site/articles/web-apps-vs-websites/index.html:202:
+
+  http://localhost:4000/ is not an HTTPS link
+
+* At ./_site/articles/web-apps-vs-websites/index.html:210:
+
+  http://localhost:4000/ is not an HTTPS link
+
+* At ./_site/articles/web-apps-vs-websites/index.html:248:
+
+  mailto:marcrendlignacio+blog[at]gmail.com contains an invalid email address
+
+* At ./_site/articles/web-apps-vs-websites/index.html:338:
+
+  http://localhost:4000/articles/web-apps-vs-websites/ is not an HTTPS link
+
+* At ./_site/articles/web-apps-vs-websites/index.html:690:
+
+  http://localhost:4000 is not an HTTPS link
+
+* At ./_site/articles/wget/index.html:70:
+
+  http://localhost:4000/articles/wget/ is not an HTTPS link
+
+* At ./_site/articles/wget/index.html:202:
+
+  http://localhost:4000/ is not an HTTPS link
+
+* At ./_site/articles/wget/index.html:210:
+
+  http://localhost:4000/ is not an HTTPS link
+
+* At ./_site/articles/wget/index.html:248:
+
+  mailto:marcrendlignacio+blog[at]gmail.com contains an invalid email address
+
+* At ./_site/articles/wget/index.html:338:
+
+  http://localhost:4000/articles/wget/ is not an HTTPS link
+
+* At ./_site/articles/wget/index.html:672:
+
+  http://localhost:4000 is not an HTTPS link
+
+* At ./_site/index.html:66:
+
+  http://localhost:4000/ is not an HTTPS link
+
+* At ./_site/index.html:70:
+
+  http://localhost:4000/page2/ is not an HTTPS link
+
+* At ./_site/index.html:208:
+
+  http://localhost:4000/ is not an HTTPS link
+
+* At ./_site/index.html:216:
+
+  http://localhost:4000/ is not an HTTPS link
+
+* At ./_site/index.html:254:
+
+  mailto:marcrendlignacio+blog[at]gmail.com contains an invalid email address
+
+* At ./_site/index.html:1278:
+
+  http://localhost:4000 is not an HTTPS link
+
+* At ./_site/page2/index.html:66:
+
+  http://localhost:4000/page2/ is not an HTTPS link
+
+* At ./_site/page2/index.html:69:
+
+  http://localhost:4000/ is not an HTTPS link
+
+* At ./_site/page2/index.html:198:
+
+  http://localhost:4000/ is not an HTTPS link
+
+* At ./_site/page2/index.html:206:
+
+  http://localhost:4000/ is not an HTTPS link
+
+* At ./_site/page2/index.html:244:
+
+  mailto:marcrendlignacio+blog[at]gmail.com contains an invalid email address
+
+* At ./_site/page2/index.html:494:
+
+  http://localhost:4000 is not an HTTPS link
+
+* At ./_site/rubymotion-review/index.html:70:
+
+  http://localhost:4000/rubymotion-review/ is not an HTTPS link
+
+* At ./_site/rubymotion-review/index.html:202:
+
+  http://localhost:4000/ is not an HTTPS link
+
+* At ./_site/rubymotion-review/index.html:210:
+
+  http://localhost:4000/ is not an HTTPS link
+
+* At ./_site/rubymotion-review/index.html:248:
+
+  mailto:marcrendlignacio+blog[at]gmail.com contains an invalid email address
+
+* At ./_site/rubymotion-review/index.html:338:
+
+  http://localhost:4000/rubymotion-review/ is not an HTTPS link
+
+* At ./_site/rubymotion-review/index.html:370:
+
+  http://www.coronalabs.com/ is not an HTTPS link
+
+* At ./_site/rubymotion-review/index.html:396:
+
+  http://www.rubymotion.com/developer-center/articles/debugging/ is not an HTTPS link
+
+* At ./_site/rubymotion-review/index.html:422:
+
+  http://www.rubymotion.com/ is not an HTTPS link
+
+* At ./_site/rubymotion-review/index.html:687:
+
+  http://localhost:4000 is not an HTTPS link
+
+* At ./_site/yadr/index.html:70:
+
+  http://localhost:4000/yadr/ is not an HTTPS link
+
+* At ./_site/yadr/index.html:202:
+
+  http://localhost:4000/ is not an HTTPS link
+
+* At ./_site/yadr/index.html:210:
+
+  http://localhost:4000/ is not an HTTPS link
+
+* At ./_site/yadr/index.html:248:
+
+  mailto:marcrendlignacio+blog[at]gmail.com contains an invalid email address
+
+* At ./_site/yadr/index.html:338:
+
+  http://localhost:4000/yadr/ is not an HTTPS link
+
+* At ./_site/yadr/index.html:676:
+
+  http://localhost:4000 is not an HTTPS link
+
+For the Links > Internal check, the following failures were found:
+
+* At ./_site/about.html:390:
+
+  internally linking to /tags/#about, which does not exist
+
+* At ./_site/articles/a_sane_way_to_adopt_code_conventions/index.html:412:
+
+  internally linking to /tags/#dev, which does not exist
+
+* At ./_site/articles/a_sane_way_to_adopt_code_conventions/index.html:414:
+
+  internally linking to /tags/#quicktips, which does not exist
+
+* At ./_site/articles/a_sane_way_to_adopt_code_conventions/index.html:416:
+
+  internally linking to /tags/#ruby, which does not exist
+
+* At ./_site/articles/a_sane_way_to_adopt_code_conventions/index.html:418:
+
+  internally linking to /tags/#shell, which does not exist
+
+* At ./_site/articles/a_sane_way_to_adopt_code_conventions/index.html:420:
+
+  internally linking to /tags/#til, which does not exist
+
+* At ./_site/articles/a_sane_way_to_adopt_code_conventions/index.html:439:
+
+  internally linking to /categories/#articles, which does not exist
+
+* At ./_site/articles/default-terminal-editor/index.html:404:
+
+  internally linking to /tags/#til, which does not exist
+
+* At ./_site/articles/default-terminal-editor/index.html:423:
+
+  internally linking to /categories/#articles, which does not exist
+
+* At ./_site/articles/faster_rails_boot_times_and_tests/index.html:460:
+
+  internally linking to /tags/#dev, which does not exist
+
+* At ./_site/articles/faster_rails_boot_times_and_tests/index.html:462:
+
+  internally linking to /tags/#ruby, which does not exist
+
+* At ./_site/articles/faster_rails_boot_times_and_tests/index.html:464:
+
+  internally linking to /tags/#security, which does not exist
+
+* At ./_site/articles/faster_rails_boot_times_and_tests/index.html:483:
+
+  internally linking to /categories/#articles, which does not exist
+
+* At ./_site/articles/first-post/index.html:400:
+
+  internally linking to /categories/#articles, which does not exist
+
+* At ./_site/articles/fix_slow_terminal_loading_time/index.html:418:
+
+  internally linking to /tags/#dev, which does not exist
+
+* At ./_site/articles/fix_slow_terminal_loading_time/index.html:420:
+
+  internally linking to /tags/#ruby, which does not exist
+
+* At ./_site/articles/fix_slow_terminal_loading_time/index.html:422:
+
+  internally linking to /tags/#security, which does not exist
+
+* At ./_site/articles/fix_slow_terminal_loading_time/index.html:441:
+
+  internally linking to /categories/#articles, which does not exist
+
+* At ./_site/articles/how_not_to_validate_classes_in_ruby_web_apps/index.html:445:
+
+  internally linking to /tags/#dev, which does not exist
+
+* At ./_site/articles/how_not_to_validate_classes_in_ruby_web_apps/index.html:447:
+
+  internally linking to /tags/#ruby, which does not exist
+
+* At ./_site/articles/how_not_to_validate_classes_in_ruby_web_apps/index.html:449:
+
+  internally linking to /tags/#security, which does not exist
+
+* At ./_site/articles/how_not_to_validate_classes_in_ruby_web_apps/index.html:468:
+
+  internally linking to /categories/#articles, which does not exist
+
+* At ./_site/articles/how_to_say_no/index.html:415:
+
+  internally linking to /tags/#communication, which does not exist
+
+* At ./_site/articles/how_to_say_no/index.html:417:
+
+  internally linking to /tags/#quicktips, which does not exist
+
+* At ./_site/articles/how_to_say_no/index.html:419:
+
+  internally linking to /tags/#til, which does not exist
+
+* At ./_site/articles/how_to_say_no/index.html:438:
+
+  internally linking to /categories/#articles, which does not exist
+
+* At ./_site/articles/jasmine-jquery-animations/index.html:410:
+
+  internally linking to /tags/#til, which does not exist
+
+* At ./_site/articles/jasmine-jquery-animations/index.html:429:
+
+  internally linking to /categories/#articles, which does not exist
+
+* At ./_site/articles/kill-spring/index.html:414:
+
+  internally linking to /tags/#dev, which does not exist
+
+* At ./_site/articles/kill-spring/index.html:416:
+
+  internally linking to /tags/#til, which does not exist
+
+* At ./_site/articles/kill-spring/index.html:435:
+
+  internally linking to /categories/#articles, which does not exist
+
+* At ./_site/articles/migrate-phantomjs-to-headless-chrome/index.html:422:
+
+  internally linking to /tags/#dev, which does not exist
+
+* At ./_site/articles/migrate-phantomjs-to-headless-chrome/index.html:441:
+
+  internally linking to /categories/#articles, which does not exist
+
+* At ./_site/articles/pomo_sh/index.html:419:
+
+  internally linking to /tags/#dev, which does not exist
+
+* At ./_site/articles/pomo_sh/index.html:421:
+
+  internally linking to /tags/#quicktips, which does not exist
+
+* At ./_site/articles/pomo_sh/index.html:423:
+
+  internally linking to /tags/#shell, which does not exist
+
+* At ./_site/articles/pomo_sh/index.html:425:
+
+  internally linking to /tags/#til, which does not exist
+
+* At ./_site/articles/pomo_sh/index.html:444:
+
+  internally linking to /categories/#articles, which does not exist
+
+* At ./_site/articles/profiling_vim/index.html:443:
+
+  internally linking to /tags/#dev, which does not exist
+
+* At ./_site/articles/profiling_vim/index.html:445:
+
+  internally linking to /tags/#quicktips, which does not exist
+
+* At ./_site/articles/profiling_vim/index.html:447:
+
+  internally linking to /tags/#til, which does not exist
+
+* At ./_site/articles/profiling_vim/index.html:449:
+
+  internally linking to /tags/#vim, which does not exist
+
+* At ./_site/articles/profiling_vim/index.html:468:
+
+  internally linking to /categories/#articles, which does not exist
+
+* At ./_site/articles/rake_console/index.html:414:
+
+  internally linking to /tags/#dev, which does not exist
+
+* At ./_site/articles/rake_console/index.html:416:
+
+  internally linking to /tags/#quicktips, which does not exist
+
+* At ./_site/articles/rake_console/index.html:418:
+
+  internally linking to /tags/#ruby, which does not exist
+
+* At ./_site/articles/rake_console/index.html:420:
+
+  internally linking to /tags/#til, which does not exist
+
+* At ./_site/articles/rake_console/index.html:439:
+
+  internally linking to /categories/#articles, which does not exist
+
+* At ./_site/articles/remote_pairing/index.html:452:
+
+  internally linking to /tags/#dev, which does not exist
+
+* At ./_site/articles/remote_pairing/index.html:454:
+
+  internally linking to /tags/#pair-programming, which does not exist
+
+* At ./_site/articles/remote_pairing/index.html:456:
+
+  internally linking to /tags/#remote, which does not exist
+
+* At ./_site/articles/remote_pairing/index.html:475:
+
+  internally linking to /categories/#articles, which does not exist
+
+* At ./_site/articles/reverting_bad_pull_requests_in_github/index.html:414:
+
+  internally linking to /tags/#dev, which does not exist
+
+* At ./_site/articles/reverting_bad_pull_requests_in_github/index.html:416:
+
+  internally linking to /tags/#github, which does not exist
+
+* At ./_site/articles/reverting_bad_pull_requests_in_github/index.html:435:
+
+  internally linking to /categories/#articles, which does not exist
+
+* At ./_site/articles/testing-subdomains-in-capybara/index.html:415:
+
+  internally linking to /tags/#til, which does not exist
+
+* At ./_site/articles/testing-subdomains-in-capybara/index.html:434:
+
+  internally linking to /categories/#articles, which does not exist
+
+* At ./_site/articles/throttle-down-rails-processes/index.html:414:
+
+  internally linking to /tags/#til, which does not exist
+
+* At ./_site/articles/throttle-down-rails-processes/index.html:433:
+
+  internally linking to /categories/#articles, which does not exist
+
+* At ./_site/articles/use-html-css-js-vim-plugins-for-vue/index.html:407:
+
+  internally linking to /tags/#til, which does not exist
+
+* At ./_site/articles/use-html-css-js-vim-plugins-for-vue/index.html:426:
+
+  internally linking to /categories/#articles, which does not exist
+
+* At ./_site/articles/web-apps-vs-websites/index.html:409:
+
+  internally linking to /tags/#internet, which does not exist
+
+* At ./_site/articles/web-apps-vs-websites/index.html:411:
+
+  internally linking to /tags/#web, which does not exist
+
+* At ./_site/articles/web-apps-vs-websites/index.html:413:
+
+  internally linking to /tags/#web-apps, which does not exist
+
+* At ./_site/articles/web-apps-vs-websites/index.html:432:
+
+  internally linking to /categories/#articles, which does not exist
+
+* At ./_site/articles/wget/index.html:395:
+
+  internally linking to /tags/#til, which does not exist
+
+* At ./_site/articles/wget/index.html:414:
+
+  internally linking to /categories/#articles, which does not exist
+
+For the Scripts check, the following failures were found:
+
+* At ./_site/404.html:353:
+
+  script link //linkhelp.clients.google.com/tbproxy/lh/wm/fixurl.js is a protocol-relative URL, use explicit https:// instead
+
+
+HTML-Proofer found 261 failures!

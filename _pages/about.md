@@ -2,7 +2,6 @@
 layout: single
 permalink: /about
 title: About the Author
-tags: [about]
 image:
   feature: texture-feature-02.jpg
 ---

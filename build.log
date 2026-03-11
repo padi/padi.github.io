@@ -1,0 +1,10 @@
+Configuration file: /Users/hawk/Documents/Projects/padi.github.io/_config.yml
+To use retry middleware with Faraday v2.0+, install `faraday-retry` gem
+            Source: /Users/hawk/Documents/Projects/padi.github.io
+       Destination: /Users/hawk/Documents/Projects/padi.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+      Remote Theme: Using theme mmistakes/minimal-mistakes
+       Jekyll Feed: Generating feed for posts
+                    done in 13.792 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.

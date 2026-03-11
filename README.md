@@ -4,11 +4,10 @@ A personal blog of Marc Rendl, a software developer.
 
 ## Requirements
 
-From: https://jekyllrb.com/docs/installation/#requirements
+Needs Jekyll v3.10 or higher.
 
-    Ruby version 2.7.0 or higher, including all development headers (check your Ruby version using ruby -v)
-    RubyGems (check your Gems version using gem -v)
-    GCC and Make (check versions using gcc -v,g++ -v, and make -v)
+See [Jekyll Requirements](https://jekyllrb.com/docs/installation/#requirements)
+for compatible versions
 
 ## How to Run Locally
 
