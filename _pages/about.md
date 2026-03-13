@@ -6,24 +6,38 @@ image:
   feature: texture-feature-02.jpg
 ---
 
-Marc/Rendl/Padi/Jaci/(suggest a new nick here) is a graduate of Mathematics at the University of the Philippines, Diliman.
-I'm a freelance web developer with 10+ yrs. of combined experience in Ruby on Rails and Digital Marketing (FB and FB Messenger Automation). 
+Hi there! I'm Marc, a web developer with 10+ yrs. experience, centered on
+Ruby on Rails, Javascript and Shopify.
 
-I've made/maintained [web apps]({{ site.url }}/articles/web-apps-vs-websites/) for [aelogica](http://aelogica.com) and [TrafficDito.com](https://trafficdito.com) in various industries:
+My first dabbling in websites was a static website about the 9\* planets of the
+Solar System... saved and submitted as a school project via HDD that
+I managed to disassemble off the PC... because the floppy disk drive was broken.
+
+(If a few of those words flew past your head
+or wonder about the 9th planet, I'm sorry!)
+
+Ever since then, I was told I was good with problem solving and computers.
+
+So a few years later, after graduating with a Mathematics degree at the
+University of the Philippines Diliman, I went in Head First\* into
+Web Development.
+
+Then A LOT of years later, I've made and/or maintained
+[web apps]({{ site.url }}/articles/web-apps-vs-websites/)
+as part of [aelogica](http://aelogica.com), [TrafficDito.com](https://trafficdito.com),
+and as a freelancer for a variety of industries:
 
 - eCommerce (custom platform, Shopify Apps)
 - Health and Fitness
 - Real Estate, Self-storage, Senior Living
-- Digital Marketing
+- Digital Marketing (Manychat/FB Chatbot Funnels)
 - Golf
 - An Australian book and TV Show
 
-And I am open to take on more ecommerce/Shopify-related projects.
+I'm currently open for Ruby/Rails/Shopify-related projects.
 
-## Better Every Day is all about:
+\* Only a few developers who read some early O'Reilly books will get the reference to that one. 😉
 
-* Web development, mostly related to [Ruby](http://ruby-lang.org) and [Rails](http://rubyonrails.org).
-* Tips to be better than yesterday...  what worked for me and what didn't.
-
-<a markdown="0" href="mailto:marcrendlignacio[at]gmail.com" class="btn">Let's Talk!</a>
-<a markdown="0" href="mailto:marcrendlignacio[at]gmail.com" title="Pair program with me!" class="btn btn-inverse">Let's Pair Program!</a>
+<a markdown="0" href="mailto:marcrendlignacio[at]gmail.com" class="btn btn--primary">Let's Talk! 🗣</a>
+<a markdown="0" href="https://cssbattle.dev/player/mri" class="btn btn--warning">En Garde! 🤺</a>
+<a markdown="0" href="https://monkeytype.com/profile/m14o" class="btn btn--danger">Feel the Need... For Typing Speed!!! 🏎</a>
