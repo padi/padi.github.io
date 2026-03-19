@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Hyperfine: Your Benchmarking One-liner"
+title: "Hyperfine: A Shell Benchmarking One-liner"
 tags: [dev, til, performance]
 status: publish
 date: 2026-03-19 11:46:00 +0800
@@ -50,7 +50,7 @@ sudo apt install hyperfine
 nix profile add nixpkgs#hyperfine
 ```
 
-That's it!
+That's it! [Here's the hyperlink repo.](github.com/sharkdp/hyperfine)
 
 P.S. I've been loving [mise-en-place](https://mise.jdx.dev/) and has completely
 replaced [asdf](https://asdf-vm.com/)
