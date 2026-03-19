@@ -1,9 +1,9 @@
 ---
 layout: single
 title: "Hyperfine: Your Benchmarking One-liner"
-tags: [dev, til]
+tags: [dev, til, performance]
 status: publish
-date:   2026-03-19 11:46:00 +0800
+date: 2026-03-19 11:46:00 +0800
 type: post
 category: articles
 published: true
@@ -43,7 +43,7 @@ cargo install hyperfine
 # Using mise and lock version to mise config
 mise use -g cargo:hyperfine@latest
 
-# Uing apt
+# Using apt
 sudo apt install hyperfine
 
 # Using nix flakes
@@ -52,6 +52,6 @@ nix profile add nixpkgs#hyperfine
 
 That's it!
 
-P.S. I've been loving [mise-en-place](
-https://mise.jdx.dev/) and has completely replaced [asdf](https://asdf-vm.com/)
+P.S. I've been loving [mise-en-place](https://mise.jdx.dev/) and has completely
+replaced [asdf](https://asdf-vm.com/)
 as an all-around version manager for me. Try it out too!
