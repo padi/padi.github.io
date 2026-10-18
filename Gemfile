@@ -9,5 +9,5 @@ gem "webrick", "~> 1.8"
 gem "html-proofer", "~> 5.0"
 gem "jekyll-include-cache", group: :jekyll_plugins
 
-gem "jekyll-admin"
+gem "jekyll-admin", group: :jekyll_plugins
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
