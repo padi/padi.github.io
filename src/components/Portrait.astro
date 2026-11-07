@@ -1,0 +1,35 @@
+---
+interface Props {
+  /** Plays the one-time build animation. Home page only. */
+  assemble?: boolean;
+}
+
+const { assemble = false } = Astro.props;
+const pieces = [
+  'p-disc', 'p-hairback', 'p-ear p-ear-l', 'p-ear p-ear-r', 'p-shoulders', 'p-neck',
+  'p-collar p-collar-l', 'p-collar p-collar-r', 'p-stripe p-stripe-l', 'p-stripe p-stripe-r',
+  'p-head', 'p-fringe', 'p-brow p-brow-l', 'p-brow p-brow-r', 'p-eye p-eye-l', 'p-eye p-eye-r',
+  'p-lens p-lens-l', 'p-lens p-lens-r', 'p-bridge', 'p-nose', 'p-smile', 'p-teeth',
+];
+const lensCss = `.lens {
+  width: 18em;
+  height: 14em;
+  border: 2.1em solid var(--roast);
+  border-radius: 30% 30% 42% 42%;
+}`;
+---
+
+<div class="hero-face">
+  <div
+    class:list={['portrait', { assemble }]}
+    role="img"
+    aria-label="A portrait of Marc drawn in CSS: dark swept hair, thick glasses, a wide smile, and a blue polo with a red collar"
+  >
+    {pieces.map((piece) => <i class={piece} />)}
+  </div>
+  <details class="egg">
+    <summary><span class="egg-name">View the CSS for my glasses</span></summary>
+    <p class="egg-note">You spotted it. This face is {pieces.length} boxes and some CSS. Here are the glasses:</p>
+    <pre class="code"><code>{lensCss}</code></pre>
+  </details>
+</div>

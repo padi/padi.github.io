@@ -1,0 +1,32 @@
+---
+import Base from '../../layouts/Base.astro';
+import { topicIds, topics } from '../../data/topics';
+import { getNotes, topicHref } from '../../lib/notes';
+
+const notes = await getNotes();
+const countFor = (id: string) => notes.filter((note) => note.data.topic === id).length;
+---
+
+<Base title="Topics" description="Marc's notes grouped by topic: Ruby and Rails, shell, Vim, testing, Git and the web, and working life.">
+  <section class="wrap page-head">
+    <h1 class="display d1">Topics</h1>
+  </section>
+  <section class="wrap" aria-label="All topics">
+    <ul class="topic-grid">
+      {
+        topicIds.map((id) => {
+          const count = countFor(id);
+          return (
+            <li>
+              <a class="row" href={topicHref(id)}>
+                <span class:list={['shape', topics[id].shape]} aria-hidden="true" />
+                <span class="row-title">{topics[id].name}</span>
+                <span class="row-meta">{count} {count === 1 ? 'note' : 'notes'}</span>
+              </a>
+            </li>
+          );
+        })
+      }
+    </ul>
+  </section>
+</Base>

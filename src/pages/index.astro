@@ -1,0 +1,35 @@
+---
+import Base from '../layouts/Base.astro';
+import NoteList from '../components/NoteList.astro';
+import Portrait from '../components/Portrait.astro';
+import Search from '../components/Search.astro';
+import { site } from '../data/site';
+import { getNotes } from '../lib/notes';
+
+const notes = await getNotes();
+---
+
+<Base>
+  <section class="wrap hero">
+    <Portrait assemble />
+    <div>
+      <h1 class="display d1">Hi, I'm Marc.</h1>
+      <p class="lede">
+        I've been making and maintaining web apps for over 10 years, mostly with Ruby on Rails, JavaScript and Shopify.
+        These are the things I've figured out along the way, written down so I can find them again.
+      </p>
+      <p class="open">{site.hireLine} <a href={site.talkHref}>Let's talk</a></p>
+    </div>
+  </section>
+
+  <section class="wrap" aria-labelledby="notes-title">
+    <div class="list-head">
+      <h2 class="display d2" id="notes-title">Notes</h2>
+      <Search />
+    </div>
+    <p class="search-status" role="status" data-search-status></p>
+    <ul class="notes" data-search-results hidden></ul>
+    <NoteList notes={notes.slice(0, 7)} />
+    <a class="all" href="/notes/" data-see-all>See all {notes.length} notes</a>
+  </section>
+</Base>

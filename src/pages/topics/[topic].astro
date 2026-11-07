@@ -1,0 +1,27 @@
+---
+import Base from '../../layouts/Base.astro';
+import NoteList from '../../components/NoteList.astro';
+import { topicIds, topics, type TopicId } from '../../data/topics';
+import { getNotes } from '../../lib/notes';
+
+export function getStaticPaths() {
+  return topicIds.map((topic) => ({ params: { topic } }));
+}
+
+const id = Astro.params.topic as TopicId;
+const topic = topics[id];
+const notes = (await getNotes()).filter((note) => note.data.topic === id);
+---
+
+<Base title={topic.name} description={`Marc's notes on ${topic.name.toLowerCase()}.`}>
+  <header class="wrap topic-head">
+    <span class:list={['shape', topic.shape]} aria-hidden="true"></span>
+    <div>
+      <h1 class="display d2">{topic.name}</h1>
+      <p class="note-age">{notes.length} {notes.length === 1 ? 'note' : 'notes'}. <a href="/topics/">All topics</a></p>
+    </div>
+  </header>
+  <section class="wrap" aria-label={`Notes on ${topic.name}`}>
+    <NoteList notes={notes} showTopic={false} />
+  </section>
+</Base>

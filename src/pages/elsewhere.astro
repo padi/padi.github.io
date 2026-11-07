@@ -1,0 +1,41 @@
+---
+import Base from '../layouts/Base.astro';
+import { xPosts } from '../data/site';
+
+const formatDate = (date: string) =>
+  new Date(date).toLocaleDateString('en', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' });
+---
+
+<Base title="Elsewhere" description="Marc's recorded talks, code, services and profiles around the web.">
+  <section class="wrap page-head">
+    <h1 class="display d1">Elsewhere</h1>
+    <p class="lede">Talks, code and the odd bit of competitive CSS.</p>
+  </section>
+  <section class="wrap page-body">
+    <div class="prose">
+      <h2>Talks</h2>
+      <p><a href="https://www.youtube.com/playlist?list=PLUWxUW-YCdzw4plP128fg6kUK8obHMD4b">Watch my recorded talks on YouTube</a></p>
+
+      <h2>Code and practice</h2>
+      <ul class="link-list">
+        <li><a href="https://github.com/padi">GitHub</a></li>
+        <li><a href="https://cssbattle.dev/player/mri">CSSBattle</a></li>
+        <li><a href="https://monkeytype.com/profile/m14o">Monkeytype</a></li>
+      </ul>
+
+      <h2>Services</h2>
+      <p><a href="https://ignifymedia.com">Ignify Media</a></p>
+
+      <h2>On X</h2>
+      {
+        xPosts.map((post) => (
+          <blockquote class="x-post">
+            <p>{post.text}</p>
+            <a href={post.url}>{formatDate(post.date)}</a>
+          </blockquote>
+        ))
+      }
+      <p><a href="https://x.com/marcrendl">Follow me on X</a></p>
+    </div>
+  </section>
+</Base>

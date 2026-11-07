@@ -1,0 +1,16 @@
+---
+import Base from '../layouts/Base.astro';
+import Search from '../components/Search.astro';
+---
+
+<Base title="Page not found" description="This page doesn't exist.">
+  <section class="wrap page-head">
+    <h1 class="display d1">Page not found</h1>
+    <p class="lede">This page doesn't exist. Search the notes, or start from the <a href="/notes/">full list</a>.</p>
+  </section>
+  <section class="wrap page-body">
+    <Search />
+    <p class="search-status" role="status" data-search-status style="margin-top: 16px"></p>
+    <ul class="notes" data-search-results hidden></ul>
+  </section>
+</Base>

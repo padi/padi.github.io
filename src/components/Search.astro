@@ -1,0 +1,107 @@
+---
+// Without JavaScript the form opens the full notes list.
+---
+
+<form class="search" action="/notes/" method="get" role="search" data-search>
+  <label for="search-notes">Search notes</label>
+  <input id="search-notes" type="search" name="q" placeholder="pkill, Capybara, vim" autocomplete="off" />
+</form>
+
+<script>
+  type Row = { url: string; title: string; excerpt: string; topic: string; year: string; shape: string };
+
+  const form = document.querySelector<HTMLFormElement>('[data-search]');
+  const input = form?.querySelector('input');
+  const list = document.querySelector<HTMLElement>('[data-note-list]');
+  const more = document.querySelector<HTMLElement>('[data-see-all]');
+  const status = document.querySelector<HTMLElement>('[data-search-status]');
+  const results = document.querySelector<HTMLElement>('[data-search-results]');
+
+  let pagefind: any;
+  let latest = 0;
+
+  async function loadIndex() {
+    // The path only exists after `pagefind` has indexed a build, so Vite must not resolve it.
+    pagefind ??= await import(/* @vite-ignore */ `${location.origin}/pagefind/pagefind.js`);
+    return pagefind;
+  }
+
+  function rowFor(item: Row) {
+    const li = document.createElement('li');
+    const link = document.createElement('a');
+    link.className = 'row';
+    link.href = item.url;
+    const shape = document.createElement('span');
+    shape.className = `shape ${item.shape}`;
+    shape.setAttribute('aria-hidden', 'true');
+    const title = document.createElement('span');
+    title.className = 'row-title';
+    title.textContent = item.title;
+    const meta = document.createElement('span');
+    meta.className = 'row-meta';
+    meta.textContent = `${item.topic}, ${item.year}`;
+    const excerpt = document.createElement('span');
+    excerpt.className = 'row-excerpt';
+    // Pagefind escapes the page text and adds only <mark> tags.
+    excerpt.innerHTML = item.excerpt;
+    link.append(shape, title, meta, excerpt);
+    li.append(link);
+    return li;
+  }
+
+  function showResults(active: boolean) {
+    if (list) list.hidden = active;
+    if (more) more.hidden = active;
+    if (results) results.hidden = !active;
+    if (!active && status) status.textContent = '';
+  }
+
+  async function search(query: string) {
+    const run = ++latest;
+    if (!query.trim()) {
+      showResults(false);
+      return;
+    }
+    showResults(true);
+    try {
+      const index = await loadIndex();
+      const found = await index.debouncedSearch(query);
+      if (run !== latest || found === null) return;
+      const items = await Promise.all(found.results.slice(0, 12).map((result: any) => result.data()));
+      if (run !== latest) return;
+      results?.replaceChildren(
+        ...items.map((data: any) =>
+          rowFor({
+            url: data.url,
+            title: data.meta.title,
+            excerpt: data.excerpt,
+            topic: data.meta.topic,
+            year: data.meta.year,
+            shape: data.meta.shape,
+          }),
+        ),
+      );
+      if (status) {
+        status.textContent = items.length
+          ? `${found.results.length} ${found.results.length === 1 ? 'note matches' : 'notes match'} “${query}”.`
+          : `No notes match “${query}”. Try a shorter word, or browse by topic.`;
+      }
+    } catch {
+      if (run !== latest) return;
+      results?.replaceChildren();
+      if (status) status.textContent = 'Search could not load. Try reloading the page, or browse by topic.';
+    }
+  }
+
+  form?.addEventListener('submit', (event) => {
+    event.preventDefault();
+    search(input?.value ?? '');
+  });
+  input?.addEventListener('input', () => search(input.value));
+
+  const initial = new URLSearchParams(location.search).get('q');
+  if (initial && input) {
+    input.value = initial;
+    search(initial);
+  }
+</script>

@@ -1,0 +1,61 @@
+---
+import { render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import NoteList from '../../components/NoteList.astro';
+import { topics } from '../../data/topics';
+import { getNotes, noteAge, noteSummary, topicHref, type Note } from '../../lib/notes';
+
+export async function getStaticPaths() {
+  const notes = await getNotes();
+  return notes.map((note) => ({ params: { slug: note.id }, props: { note, notes } }));
+}
+
+interface Props {
+  note: Note;
+  notes: Note[];
+}
+
+const { note, notes } = Astro.props;
+const { Content } = await render(note);
+const topic = topics[note.data.topic];
+const related = notes.filter((other) => other.data.topic === note.data.topic && other.id !== note.id).slice(0, 3);
+const year = note.data.written.getUTCFullYear();
+---
+
+<Base title={note.data.title} description={noteSummary(note)} type="article">
+  <article
+    data-pagefind-body
+    data-topic={topic.name}
+    data-year={year}
+    data-shape={topic.shape}
+    data-pagefind-meta="topic[data-topic], year[data-year], shape[data-shape]"
+  >
+    <header class="wrap note-head">
+      <span class:list={['shape', topic.shape]} aria-hidden="true"></span>
+      <div class="note-title">
+        <a class="topic-link" href={topicHref(note.data.topic)} data-pagefind-ignore>{topic.name}</a>
+        <h1 class="display d2" style="margin-top: 8px; max-width: 18em" data-pagefind-meta="title">{note.data.title}</h1>
+        <p class="note-age" data-pagefind-ignore>{noteAge(note)}</p>
+        <details class="egg" data-pagefind-ignore>
+          <summary><span class="egg-name">{topic.egg.label}</span></summary>
+          <p class="egg-note">{topic.egg.note}</p>
+          <pre class="code"><code>{topic.egg.css}</code></pre>
+        </details>
+      </div>
+    </header>
+    <div class="wrap note-body">
+      <div class="prose">
+        <Content />
+      </div>
+    </div>
+  </article>
+
+  {
+    related.length > 0 && (
+      <section class="wrap seealso" aria-labelledby="more-title">
+        <h2 class="display d3" id="more-title">More on {topic.name}</h2>
+        <NoteList notes={related} showTopic={false} />
+      </section>
+    )
+  }
+</Base>

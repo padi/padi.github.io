@@ -1,0 +1,23 @@
+---
+import Base from '../../layouts/Base.astro';
+import NoteList from '../../components/NoteList.astro';
+import Search from '../../components/Search.astro';
+import { getNotes } from '../../lib/notes';
+
+const notes = await getNotes();
+---
+
+<Base title="Notes" description="Every note on Marc's Tech Notes, newest first.">
+  <section class="wrap page-head">
+    <div class="list-head">
+      <h1 class="display d1">Notes</h1>
+      <Search />
+    </div>
+    <p class="open">All {notes.length} notes, newest first. You can also <a href="/topics/">browse by topic</a>.</p>
+  </section>
+  <section class="wrap" aria-label="All notes">
+    <p class="search-status" role="status" data-search-status></p>
+    <ul class="notes" data-search-results hidden></ul>
+    <NoteList notes={notes} />
+  </section>
+</Base>

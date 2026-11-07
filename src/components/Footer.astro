@@ -1,0 +1,30 @@
+---
+import { nav, profiles, site } from '../data/site';
+
+const year = new Date().getFullYear();
+---
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-main">
+        <p class="display d3 foot-pitch">{site.hireLine}</p>
+        <p class="foot-talk"><a href={site.talkHref}>Let's talk</a></p>
+      </div>
+      <nav aria-label="Footer pages">
+        <p class="foot-head">Pages</p>
+        <ul class="foot-list">
+          {nav.map((item) => <li><a href={item.href}>{item.label}</a></li>)}
+        </ul>
+      </nav>
+      <nav aria-label="Profiles and feed">
+        <p class="foot-head">Find me</p>
+        <ul class="foot-list">
+          {profiles.map((item) => <li><a href={item.href}>{item.label}</a></li>)}
+          <li><a href="/feed.xml">RSS feed</a></li>
+        </ul>
+      </nav>
+    </div>
+    <p class="foot-sign">{site.author}, {year}</p>
+  </div>
+</footer>
