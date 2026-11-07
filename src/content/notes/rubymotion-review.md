@@ -29,7 +29,7 @@ describe "RubyMotion App" do
   end
 end
 ```
-6. Debugging Tool (new) – just a few days ago, while I’m in the middle of fiddling with RubyMotion, the RubyMotion team released their debugging feature which is covered in detail [here](http://www.rubymotion.com/developer-center/articles/debugging/). Simply `rake simulator debug=1` or `rake device debug=1`.
+6. Debugging Tool (new) – just a few days ago, while I’m in the middle of fiddling with RubyMotion, the RubyMotion team released their debugging feature which is covered in detail [here](https://web.archive.org/web/20141008030927/http://www.rubymotion.com:80/developer-center/articles/debugging/). Simply `rake simulator debug=1` or `rake device debug=1`.
 
 # The Bad Parts
 I expect the dust to settle down for most of the issues, but these are the ones I’ve encountered as of this writing:

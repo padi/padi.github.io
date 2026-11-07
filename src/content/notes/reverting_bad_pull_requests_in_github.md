@@ -7,18 +7,18 @@ written: 2014-06-27
 Recently, I've accidentally merged a bad pull request in GitHub.
 What I had to do was `git revert` that merge commit and then
 work on a new branch that starts with reverting that revert
-(see [Undoing Merges](http://git-scm.com/blog/2010/03/02/undoing-merges.html)).
+(see [Undoing Merges](https://web.archive.org/web/20180103000718/https://git-scm.com/blog/2010/03/02/undoing-merges.html)).
 
 If you haven't been to this kind of situation yet, and you're using
 GitHub, then your life will be easier from now on since they've
 released a new nifty feature: the Revert Button.
 
 <figure>
-	<a href="http://s22.postimg.org/pae4ehdn5/revert_button.png ">
-    <img src="http://s22.postimg.org/pae4ehdn5/revert_button.png ">
+	<a href="https://i.postimg.cc/1tGPbMtn/revert-button.png">
+    <img src="https://i.postimg.cc/1tGPbMtn/revert-button.png">
   </a>
 	<figcaption>
-    <a href="http://s22.postimg.org/pae4ehdn5/revert_button.png " title="GitHub's new Revert Button">
+    <a href="https://i.postimg.cc/1tGPbMtn/revert-button.png" title="GitHub's new Revert Button">
       GitHub's new Revert Button
     </a>.
   </figcaption>

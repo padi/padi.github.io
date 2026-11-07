@@ -9,7 +9,7 @@ Last Thursday night, I had my first attempt at remote pair programming with Ramo
 project to work on that night but I was ready to hack on anything for fun.
 
 The project we decided to work on was personal project called [liquid_stream](https://github.com/ramontayag/liquid_stream),
-something that he uses for his web app [stiltify.com](http://get.stiltify.com/pages/home).
+something that he uses for his web app [stiltify.com](https://web.archive.org/web/20190504021746/http://get.stiltify.com:80/pages/home).
 
 We didn't do much pairing at all since the gem wasn't published until during the pairing session.
 Good thing I had some superficial knowledge of how Shopify's [liquid template engine](https://github.com/Shopify/liquid),
@@ -35,8 +35,8 @@ Here's a glimpse of our remote pairing session:
 * **Google+ hangouts are awesome.** With a lot teleconferencing tools we used at work (usually depends on client),
   Google+ stood out since it just felt faster than Skype and it's a lot easier to setup. If we will organize an
   online event, it is likely that we will use Google+.
-* **[tmate.io](http://tmate.io/) is perhaps the easiest way to connect to someone's terminal.** TL;DR: It's like
-  [tmux](http://tmux.sourceforge.net/) but safer than handing out your computer's IP address. :)
+* **[tmate.io](https://web.archive.org/web/20250619161358/https://tmate.io/) is perhaps the easiest way to connect to someone's terminal.** TL;DR: It's like
+  [tmux](https://github.com/tmux/tmux) but safer than handing out your computer's IP address. :)
 * It was pretty encouraging to work with Ramon outside of the office. He's one of the few local software developers
   that can express technical detail (or anything really) with clarity, and that continues outside of work.
 
@@ -59,4 +59,4 @@ completes the basic feature set of the app. Awesome.
 #### Notes (for non-technical readers):
 * Pair Programming is the software development technique in which two programmers work with one computer screen.
 * Remote pair programming, simply put, is pair programming with chat.
-* PHRUG - [Philippine Ruby Users Group](http://pinoyrb.org/)
+* PHRUG - [Philippine Ruby Users Group](https://web.archive.org/web/20191209150602/https://www.pinoyrb.org/)

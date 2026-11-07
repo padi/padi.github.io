@@ -13,7 +13,7 @@ even though I know that we should for consistency, & readability.
 In my opinion, just like refactoring, in order to reduce the scope of things
 that I need to change, aim to correct coding convention violations while
 working on features. In particular, only change the files that you touched
-a.k.a [The Boy Scout Rule](http://programmer.97things.oreilly.com/wiki/index.php/The_Boy_Scout_Rule).
+a.k.a [The Boy Scout Rule](https://web.archive.org/web/20180523180601/http://programmer.97things.oreilly.com:80/wiki/index.php/The_Boy_Scout_Rule).
 
 I usually follow [bbatsov's Ruby Style Guide](http://github.com/bbatsov/ruby-style-guide) and conveniently,
 [Rubocop](http://github.com/bbatsov/rubocop) enforces this by default. So, if you're
