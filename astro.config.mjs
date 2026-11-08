@@ -41,7 +41,8 @@ const shellPrompt = {
 };
 
 export default defineConfig({
-  site: 'https://padi.github.io',
+  site: process.env.PREVIEW_SITE ?? 'https://padi.github.io',
+  base: process.env.PREVIEW_BASE ?? '/',
   trailingSlash: isDev ? 'ignore' : 'always',
   redirects,
   integrations: [

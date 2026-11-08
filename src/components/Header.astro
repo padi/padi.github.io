@@ -10,7 +10,35 @@ const isCurrent = (href: string) =>
 
 <header class="wrap topbar">
   <a class="brand" href="/">{site.title}</a>
-  <nav class="nav" aria-label="Main">
-    {nav.map((item) => <a href={item.href} aria-current={isCurrent(item.href) ? 'page' : undefined}>{item.label}</a>)}
-  </nav>
+  <div class="topbar-end">
+    <nav class="nav" aria-label="Main">
+      {nav.map((item) => <a href={item.href} aria-current={isCurrent(item.href) ? 'page' : undefined}>{item.label}</a>)}
+    </nav>
+    <button class="theme-btn" type="button" aria-label="Dark mode" aria-pressed="false" hidden data-theme-toggle>
+      <span class="orb" aria-hidden="true"></span>
+    </button>
+  </div>
 </header>
+
+<script>
+  // Shows the button only when scripts run, since the theme itself is set by a script in the page head.
+  const button = document.querySelector<HTMLButtonElement>('[data-theme-toggle]');
+  if (button) {
+    const root = document.documentElement;
+    const sync = () => button.setAttribute('aria-pressed', String(root.dataset.theme === 'dark'));
+    button.hidden = false;
+    sync();
+    button.addEventListener('click', () => {
+      const next = root.dataset.theme === 'dark' ? 'light' : 'dark';
+      window.applyTheme(next);
+      try { localStorage.setItem('theme', next); } catch {}
+      sync();
+    });
+    // With no saved choice, keep following the system setting.
+    matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+      let saved = null;
+      try { saved = localStorage.getItem('theme'); } catch {}
+      if (!saved) { window.applyTheme(e.matches ? 'dark' : 'light'); sync(); }
+    });
+  }
+</script>

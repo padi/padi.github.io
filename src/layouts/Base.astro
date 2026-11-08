@@ -31,8 +31,17 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <link rel="alternate" type="application/rss+xml" title={site.title} href="/feed.xml" />
     <link rel="sitemap" href="/sitemap-index.xml" />
-    <meta name="theme-color" content="#E8D5B7" media="(prefers-color-scheme: light)" />
-    <meta name="theme-color" content="#2A1A12" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#E8D5B7" />
+    <script is:inline>
+      // Runs before the page paints: a saved choice wins, otherwise follow the system setting.
+      window.applyTheme = function (theme) {
+        document.documentElement.dataset.theme = theme;
+        document.querySelector('meta[name="theme-color"]').setAttribute('content', theme === 'dark' ? '#2A1A12' : '#E8D5B7');
+      };
+      var saved = null;
+      try { saved = localStorage.getItem('theme'); } catch (e) {}
+      window.applyTheme(saved === 'light' || saved === 'dark' ? saved : matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    </script>
     <meta property="og:site_name" content={site.title} />
     <meta property="og:title" content={title ?? site.title} />
     <meta property="og:description" content={description} />
