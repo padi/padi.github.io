@@ -31,7 +31,8 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <link rel="alternate" type="application/rss+xml" title={site.title} href="/feed.xml" />
     <link rel="sitemap" href="/sitemap-index.xml" />
-    <meta name="theme-color" content="#E8D5B7" />
+    <meta name="theme-color" content="#E8D5B7" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#2A1A12" media="(prefers-color-scheme: dark)" />
     <meta property="og:site_name" content={site.title} />
     <meta property="og:title" content={title ?? site.title} />
     <meta property="og:description" content={description} />

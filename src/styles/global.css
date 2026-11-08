@@ -335,3 +335,37 @@ main { flex: 1 0 auto; }
   .row:hover .shape, .row:hover .shape::before, .row:hover .shape::after,
   .row:focus-visible .shape, .row:focus-visible .shape::before, .row:focus-visible .shape::after { transform: none; }
 }
+
+/* Dark mode: Roast. Follows the reader's system setting and remaps the same tokens, so layout never changes. */
+:root { color-scheme: light dark; }
+@media (prefers-color-scheme: dark) {
+  :root {
+    --sand: #2A1A12;
+    --sand-light: #3D291D;
+    --roast: #F2E5CF;
+    --roast-soft: #CDB491;
+    --ink-red: #FF9E8E;
+    --cobalt: #6F88FF;
+    --well: #1B100A;
+    --gem: #FF6B7D;
+  }
+  /* The portrait keeps its own colours */
+  .portrait { --roast: #2A1A12; --sand-light: #F2E5CF; --cobalt: #2340C8; }
+  .hero-face:has(.egg[open]) .portrait i { outline-color: #F2E5CF; }
+  .hero-face:has(.egg[open]) .portrait .p-lens { outline-color: var(--ink-red); }
+  /* Shapes that relied on a dark line over a light page */
+  .s-ruby { background: var(--gem); }
+  .s-ruby::before { background: var(--signal); }
+  .s-vim::before { background: var(--sand); }
+  /* Code and the footer sit in a well darker than the page */
+  .code { background: var(--well); color: var(--roast); scrollbar-color: var(--sand-light) var(--well); }
+  .prose pre { background: var(--well) !important; color: var(--roast); scrollbar-color: var(--sand-light) var(--well); }
+  .foot { background: var(--well); color: var(--roast); }
+  .foot-pitch { color: var(--roast); }
+  .site .foot a { color: var(--roast); }
+  .site .foot a:hover { color: var(--marigold); }
+  .site .foot .foot-talk a { color: var(--marigold); }
+  .site .foot .foot-talk a:hover { color: var(--roast); }
+  .search input::placeholder { color: var(--roast-soft); opacity: 1; }
+  .row-excerpt mark { color: #2A1A12; }
+}
